@@ -1,0 +1,125 @@
+/*Setting the whole page's font family*/
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*setting the header and nav display and aligning text within the container*/
+header {
+  display: inline;
+  text-align: center;
+}
+nav {
+  display: flex;
+  text-align: center;
+  background-color: rgba(187, 221, 92, 0.911);
+}
+/*adding a background image that I want fixed in it's position */
+body {
+  background-image: url("photos/waterton-canyon.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 10%;
+}
+/*main container with my articles and site content*/
+main {
+  width: 50%;
+  height: fit-content;
+  background-color: rgba(187, 221, 92, 0.911);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 12px;
+  border-radius: 15px;
+  border: solid black 1px;
+}
+p {
+  font-size: 14pt;
+}
+/*only one ordered list so I didn't assign classes*/
+ol {
+  text-align: center;
+  font-size: 14pt;
+  list-style: lower-greek;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*making h3 heading a bit larger*/
+h3 {
+  font-size: 16pt;
+}
+hr {
+  border-color: black;
+}
+/*beginning of class specifiers*/
+/*positioning and sizing the page's heading*/
+.heading {
+  background-color: rgba(187, 221, 92, 0.911);
+  height: 40px;
+  text-decoration: underline;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: solid black 1px;
+}
+/*positioning the nav bar on the right and fixing it on the page*/
+.navbar {
+  float: right;
+  margin-left: 85%;
+  border-radius: 15px;
+  position: fixed;
+  border: solid black 1px;
+}
+.navlist {
+  list-style: none;
+  text-align: center;
+  margin-right: 30px;
+}
+.navlistitem {
+  margin: 10px;
+}
+/*making nav menu title larger than the other list items*/
+.list-title {
+  font-size: 25px;
+}
+/*sizing photo and positioning*/
+.photo {
+  height: 40%;
+  width: 40%;
+  margin-top: 25px;
+  border-radius: 15px;
+  border: solid black 1px;
+}
+/*removing bulletpoints from ul*/
+.contacts {
+  list-style: none;
+  font-size: 15pt;
+}
+/*spacing the list items/links and moving them silghtly left so they align with the headings*/
+.contact-link {
+  margin-top: 15px;
+  margin-left: -25px;
+}
+a,
+a:link {
+  color: rgb(18, 89, 102);
+  text-decoration: none;
+  background-color: none;
+}
+a:visted {
+  color: rgb(253, 253, 253);
+  background-color: red;
+}
+a:hover {
+  background-color: rgb(105, 236, 175);
+  text-decoration: underline;
+}
+a:active {
+}
