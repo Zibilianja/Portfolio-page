@@ -113,13 +113,10 @@ a:link {
   text-decoration: none;
   background-color: none;
 }
-a:visted {
-  color: rgb(253, 253, 253);
-  background-color: red;
+a:visited {
+  color: rgb(102, 128, 121);
 }
 a:hover {
   background-color: rgb(105, 236, 175);
   text-decoration: underline;
-}
-a:active {
 }
